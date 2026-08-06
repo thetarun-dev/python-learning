@@ -49,3 +49,16 @@ print(type(age))         # will print int
 print(type(height))      # will print float
 print(type(am_i_a_male)) # will print bool
 
+# -------------------------------------------------------------------------------------
+
+'''
+
+Taking input from the user
+To take the input from the user we can use the inbuilt fn name as input()
+
+'''
+
+name = input("Enter your name: ")
+print("Your name is:", name)
+
+
