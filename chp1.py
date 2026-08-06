@@ -1,11 +1,12 @@
 
 '''
-Python learning by following the Apna College yt video
-Link: https://youtu.be/q3AuP01daL4?si=xhJEHcg5ZFNxnHND
 
-Variables and how to print something in console
+Python is simple programming language.
+It's used in backend, machine learning, AI and web development
 
 '''
 
-print("Hello world")
+
+# for printing anything in console we use print()
+print("Hey Guys, I learned to print in python")
 
