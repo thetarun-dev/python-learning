@@ -55,11 +55,31 @@ Link: https://www.w3schools.com/python/python_ref_string.asp
 
 name = "taRun"
 
-print("name variable value:", name)     # taRun
+
+'''
+
+t a R u n
+0 1 2 3 4
+
+'''
+
+print("name variable value:", name)                          # taRun
 
 # upper()
-print("upper():", name.upper())         # TARUN
+print("upper():", name.upper())                              # TARUN
 
 # lower()
-print("lower():", name.lower())         # tarun
+print("lower():", name.lower())                             # tarun
+
+# find(value, start, end)
+print("find Run:", name.find("Run"))                        # 2
+
+print("find run:", name.find("run"))                        # -1 as it doesn't find run
+
+# replace(old value, new value, count)
+print("replace T with V:", name.replace('t', 'v'))          # varun
+
+# isdigit()
+print("is taRun is digit?:", name.isdigit())                # False
+
 
