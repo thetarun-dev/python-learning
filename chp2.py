@@ -26,7 +26,19 @@ age = input("Your age: ")
 # str() => to convert in string data type
 # bool() => to onvert in boolean data type
 
+
+# This is known as type casting = done by the developer whereas the python/interpeter does something automatically does
+# the conversion and that is known as type conversion
+
+# Example of type casting
 print(int(age) + 1)  # Now it will add +1 to the age given by the user
+
+# Example of type conversion
+print("Example of Type conversion \n1+0.5: ", 1+0.5) # Python interpeter automatically convert the 1 into float and perform
+                                                     # the operations this is known as type conversion
+
+                                            
+
 
 
 
