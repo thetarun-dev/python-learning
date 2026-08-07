@@ -20,3 +20,9 @@ average = Sum / 3
 print("Total bill amount:", Sum)
 print("Average price:", average)
 
+# 2
+
+name = input("Enter name: ")
+
+print(name.lower().find('s'))
+
