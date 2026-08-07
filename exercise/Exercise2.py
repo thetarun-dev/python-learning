@@ -8,6 +8,8 @@ Exercise 2
 
 '''
 
+# 1
+
 num1 = int(input("Enter amount: "))
 num2 = int(input("Enter amount: "))
 num3 = int(input("Enter amount: "))
