@@ -9,8 +9,6 @@ Comparison Operators
 
 Logical Operators
 
-Conditional Operators
-
 '''
 
 # -------------------------------------------------------------------------------------
