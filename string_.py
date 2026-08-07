@@ -43,10 +43,23 @@ upper()
 lower()
 find(value, start, end)
 isdigit()
+repalce(value need to replace, value to be replace)
+
 
 Link: https://www.w3schools.com/python/python_ref_string.asp
 
 '''
 
+# Examples
 
+
+name = "taRun"
+
+print("name variable value:", name)     # taRun
+
+# upper()
+print("upper():", name.upper())         # TARUN
+
+# lower()
+print("lower():", name.lower())         # tarun
 
