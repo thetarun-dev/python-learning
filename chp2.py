@@ -8,7 +8,7 @@ Chapter 2
 
 '''
 
-Type conversion and typecasting
+Type conversion and Type casting
 
 '''
 
@@ -37,7 +37,9 @@ print(int(age) + 1)  # Now it will add +1 to the age given by the user
 print("Example of Type conversion \n1+0.5: ", 1+0.5) # Python interpeter automatically convert the 1 into float and perform
                                                      # the operations this is known as type conversion
 
-                                            
+# -------------------------------------------------------------------------------------
+
+
 
 
 
