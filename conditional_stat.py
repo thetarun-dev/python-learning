@@ -7,12 +7,13 @@ Conditional Statements are the statements in which some conditional are check to
 
 '''
 
+# -------------------------------------------------------------------------------------
 # if statements
 
 # Let check whether the age is 18 or nots
-my_age = 22
+my_age = int(input("Enter age: "))
 if my_age >= 18:
-    print("Yes, I am old enough to take my decision like a man")
+    print("Yes, You are old enough to take my decision like a man")
 
 '''
 
@@ -21,4 +22,18 @@ print else it will be ignoreds
 
 '''
 
+# -------------------------------------------------------------------------------------
+# if-else statements
+
+if my_age >= 18:
+    print("Yes, You are old enough to take my decision like a man")
+else: 
+    print("You are child")
+
+'''
+
+Here, similar to if statements it will check the conditional and if conditional is true then print the "Yes you are old..." 
+line else it will print the "You are child" 
+
+'''
 
