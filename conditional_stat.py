@@ -37,3 +37,21 @@ line else it will print the "You are child"
 
 '''
 
+# -------------------------------------------------------------------------------------
+# if-elif statements
+
+percentage = float(input("Enter your percentage: "))
+
+if percentage >= 80.00:
+    print("You got Grade A")
+elif percentage < 80.00 and percentage >= 60.00:
+    print("You got Grade B")
+elif percentage < 60.00:
+    print("You got Grade C")
+
+
+'''
+
+Here, we are checking multiple conditions and on the basic of that we are deciding what to print
+
+'''
