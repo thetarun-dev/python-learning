@@ -82,4 +82,10 @@ print("replace T with V:", name.replace('t', 'v'))          # varun
 # isdigit()
 print("is taRun is digit?:", name.isdigit())                # False
 
+# index(value, start, end) 
+# index is similar to find the only difference is that if value is not found then index will throw error whereas find will 
+# give -1 as output
+print("find index of t:", name.index('t'))                  # 0
+print("find index of t:", name.index('T'))                  # throw an error, see assets/error/string_index_error.png
+
 
