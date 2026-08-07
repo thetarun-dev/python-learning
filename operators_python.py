@@ -61,4 +61,16 @@ print(5 != 3) # True
 # -------------------------------------------------------------------------------------
 # Logical Operators
 
+# and => it will show True if both statements are true, else False
+print((5 == 5) and (5 >= 3))        # True
+print((5 == 5) and (5 >= 6))        # False
+
+# or => it will show False if both statements are False, else True
+print((5 == 5) or (5 < 3))          # True
+print((5 != 5) and (5 >= 6))        # False
+
+# not => will change the True to False and False to True
+print(not(5 == 5))                  # False
+print(not(5 != 5))                  # True
+
 
