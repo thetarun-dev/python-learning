@@ -38,6 +38,8 @@ while game_mode:
         print("Divison:", num1 / num2)
     elif operator == "//":
         print("Reminder:", num1 // num2)
+    else:
+        print("Invalid Operation")
 
     game_mode = int(input("Want to continue: "))
     
