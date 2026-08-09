@@ -2,4 +2,43 @@
 Hi and welcome to my **Python learning journey**
 
 I am using the 2 source to learn first a youtube video from [Apna College](https://youtu.be/q3AuP01daL4?si=xhJEHcg5ZFNxnHND) and [learnpython.org](https://www.learnpython.org/)
-  
+
+**_I have also created mini projects which is in mini projects folder_**
+
+## Mini Projects
+
+1. [Calculator](./mini%20projects/calculator.py)
+
+<details>
+<summary>Details</summary>
+
+<h3>How to run</h3>
+<hr> <br>
+
+> [!WARNING] Before following the steps, please make sure to install **Python**
+
+1. Clone the projects in your machine using the `git clone`  
+
+```
+git clone https://github.com/thetarun-dev/python-learning.git
+```
+
+2. Go to the mini project folder using the terminal and run this command
+
+```python
+python calculator.py
+```
+
+The project will run...
+
+<h3>Images</h3>
+<hr><br>
+
+![Calculator](./assets/calculator-1.png)
+
+![Calculator](./assets/calculator-2.png)
+
+</details>
+
+
+
