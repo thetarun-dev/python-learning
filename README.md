@@ -31,6 +31,9 @@ python calculator.py
 
 The project will run...
 
+> [Information] For my vscode setting, please refer to this repo [dotfiles repo](https://github.com/thetarun-dev/dotfiles/tree/main/.config/Code/User)
+
+
 <h3>Images</h3>
 <hr><br>
 
