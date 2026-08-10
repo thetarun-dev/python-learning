@@ -3,7 +3,7 @@ Hi and welcome to my **Python learning journey**
 
 I am using the 2 source to learn first a youtube video from [Apna College](https://youtu.be/q3AuP01daL4?si=xhJEHcg5ZFNxnHND) and [learnpython.org](https://www.learnpython.org/)
 
-**_I have also created mini projects which is in mini projects folder_**
+**_I have also created mini projects which are present in  mini projects folder_**
 
 ## Mini Projects
 
