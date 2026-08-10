@@ -27,3 +27,9 @@ print("Value at 3 index is:", list1[3])      # False
 
 # accessing the item of list using negative index
 print("Value stored at -3 is:", list1[-3])   # 89.89
+
+# accessing the item of list by range
+print("Value stored from 0 to 4 are: ", list1[:4])
+print("Value stored from 2 to end are:", list1[2:])
+
+
