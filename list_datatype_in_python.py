@@ -36,3 +36,23 @@ print("Value stored from 2 to end are:", list1[2:])
 print("Current value stored in list:", list1)
 list1[4] = 90
 print("After changing the value:", list1)
+
+# adding the items in list using append(), insert() and extend()
+
+# append() => add item at end of list
+print("Before appending:", list1)
+list1.append("this is append text")
+print("After appending:", list1)
+
+# insert() => insert item at specified index
+print("Before insert operation:", list1)
+list1.insert(0, "This value is been insert")
+print("After inserting the value:", list1)
+
+# extend() => extending the list using another list
+print("Before extending the list:", list1)
+list2 = ["list2", "Bhandari", 73]
+print("List 2: ", list2)
+list1.extend(list2)
+print("Extending the list1 using the list2:", list1)
+
