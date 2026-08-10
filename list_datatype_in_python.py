@@ -3,7 +3,7 @@
 
 '''
 
-List is a collection/sequence of same or different type of the data store in [] and separated by ','
+List is a collection/sequence of same or different type of the data store in [] and separated by ','. List are mutable
 Example: [1, "Tarun", 89.89, False, 3]
 
 Like the array the list index start with 0
@@ -73,4 +73,27 @@ print("List1 after removing the 89.89:", list1)
 print("List1: ", list1)
 list1.pop(5)
 print("List1 after poping out the index value 5:", list1)
+
+# -------------------------------------------------------------------------------------
+# List Comprehension
+
+# List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+# newlist = [expression for item in iterable if condition == True]
+
+# Link: https://www.w3schools.com/python/python_lists_comprehension.asp
+
+# Example:
+fruits = ["apple", "cherry", "kiwi", "mango", "banana"]
+newlist = [x for x in fruits if "a" in x]
+print("New list:", newlist)
+
+# -------------------------------------------------------------------------------------
+# sort()
+
+print("Before sorting:", fruits)
+fruits.sort()
+print("After sorting:", fruits)
+
+# we can sort in descending by using sort(reverse = True)
+
 
