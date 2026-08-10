@@ -5,6 +5,15 @@ I am using the 2 source to learn first a youtube video from [Apna College](https
 
 **_I have also created mini projects which are present in  mini projects folder_**
 
+## Exercise
+
+> These are the short exercise which I have solved after learning the concepts  
+
+1. [Exercise 1](./exercise/Exercise1.py)
+2. [Exercise 2](./exercise/Exercise2.py)
+3. [Exercise 3](./exercise/Exercise3.py)
+4. [Exercise 4](./exercise/Exercise4.py)
+
 ## Mini Projects
 
 1. [Calculator](./mini%20projects/calculator.py)
