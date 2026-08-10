@@ -71,4 +71,26 @@ print((5 != 5) and (5 >= 6))        # False
 print(not(5 == 5))                  # False
 print(not(5 != 5))                  # True
 
+# -------------------------------------------------------------------------------------
+# Identify  Operators
+
+# Link: https://www.w3schools.com/python/python_operators_identity.asp
+
+# Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object,
+#  with the same memory location. These are is and is not
+
+# is => return True when both variable are return same objects
+name = "Tarn"
+name_y = name
+name_z = "Tarun"
+
+print("is name_z equal to name:", name_z is name) # False as it not pointing to same memory location
+print("is name_y equal to name:", name_y is name) # True as it pointing to same memory location of name
+
+
+
+
+
+
+
 
