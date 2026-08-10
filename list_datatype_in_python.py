@@ -32,4 +32,7 @@ print("Value stored at -3 is:", list1[-3])   # 89.89
 print("Value stored from 0 to 4 are: ", list1[:4])
 print("Value stored from 2 to end are:", list1[2:])
 
-
+# changing the value of list
+print("Current value stored in list:", list1)
+list1[4] = 90
+print("After changing the value:", list1)
