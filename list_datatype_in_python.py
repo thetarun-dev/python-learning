@@ -62,5 +62,15 @@ list1.extend(list2)
 print("Extending the list1 using the list2:", list1)
 
 # -------------------------------------------------------------------------------------
+# removing the items of list using remove(), pop()
+ 
+# remove() => remove the first occurence 
+print("List1: ", list1)
+list1.remove(89.89)
+print("List1 after removing the 89.89:", list1)
 
+# pop() => remove the item using the index no
+print("List1: ", list1)
+list1.pop(5)
+print("List1 after poping out the index value 5:", list1)
 
