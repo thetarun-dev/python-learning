@@ -22,4 +22,8 @@ print(list1)
 # length() => It will provide the length of the list/no of items
 print("Length of list1 is:", len(list1))      # 5
 
+# accessing the item of list using the index no
+print("Value at 3 index is:", list1[3])      # False
 
+# accessing the item of list using negative index
+print("Value stored at -3 is:", list1[-3])   # 89.89
