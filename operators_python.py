@@ -79,14 +79,24 @@ print(not(5 != 5))                  # True
 # Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object,
 #  with the same memory location. These are is and is not
 
-# is => return True when both variable are return same objects
 name = "Tarn"
 name_y = name
 name_z = "Tarun"
 
+# is example
 print("is name_z equal to name:", name_z is name) # False as it not pointing to same memory location
 print("is name_y equal to name:", name_y is name) # True as it pointing to same memory location of name
 
+# is not example
+print("is not name_y equal to name:", name_y is not  name) # False
+print("is not name_z equal to name:", name_z is not name) # True as it is not pointing to same object
+
+# -------------------------------------------------------------------------------------
+# Membership Operator
+
+# Link: https://www.w3schools.com/python/python_operators_membership.asp
+
+# used to check whether the sequence is present in the object
 
 
 
