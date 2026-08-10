@@ -98,9 +98,13 @@ print("is not name_z equal to name:", name_z is not name) # True as it is not po
 
 # used to check whether the sequence is present in the object
 
+# in example
+store_list = ["Books", "Vegetables", "Chicken Meat"]
+print("is Books is in my store list?:", "Books" in store_list) # True
+print("is light bulb is in my store list?:", "Light Bulb" in store_list) # False
 
-
-
+# not in example
+print("is light bulb is not in my store list?:", "Light Bulb" not in store_list) # True
 
 
 
