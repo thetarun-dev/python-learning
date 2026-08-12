@@ -20,8 +20,30 @@ print(thisset)
 # -------------------------------------------------------------------------------------
 # adding new item in a set using the add()
 # even though we cannot change the value which is already store in set we can add new and remove value to the set
+print("---\nBefore updating the set: ", thisset)
 thisset.add("watermelon")
-print(thisset)
+print("After updating the set:", thisset)
+
+# we can also use the update() to add more items in the set
+print("---\nBefore updating the set: ", thisset)
+alist = ["pineapple", "mango"]   # we can use an iterate type object instead of another set
+thisset.update(alist)
+print("After updating the set:", thisset)
+
+# -------------------------------------------------------------------------------------
+# Removing an item in set using the remove() and discard()
+
+# using the remove()  => is the item doesn't exist then it will raise an error
+print("---\nBefore removing the mango from set", thisset)
+thisset.remove("mango")
+print("after removing the mango from set: ", thisset)
+
+#thisset.remove("mango") will raise an error as mango is not found in the set
+
+# using the discard() => it will not raise an error if the item is not found in the set
+print("---\nBefore removing the pineapple from set", thisset)
+thisset.remove("pineapple")
+print("after removing the pineapple from set: ", thisset)
 
 # -------------------------------------------------------------------------------------
 
