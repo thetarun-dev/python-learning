@@ -45,6 +45,14 @@ print("---\nBefore removing the pineapple from set", thisset)
 thisset.remove("pineapple")
 print("after removing the pineapple from set: ", thisset)
 
-# -------------------------------------------------------------------------------------
+'''
+We can use the pop() to remove an item from the set but the pop() will remove an random item and will output the remove item
+so we can not confirm which item it will remove
 
+We can use clear() to clear a entire set()
+
+'''
+
+# -------------------------------------------------------------------------------------
+# Link for more set method: https://www.w3schools.com/python/python_sets_methods.asp
 
