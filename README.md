@@ -1,18 +1,21 @@
 
-Hi and welcome to my **Python learning journey**
+# Welcome
 
-I am using the 2 source to learn first a youtube video from [Apna College](https://youtu.be/q3AuP01daL4?si=xhJEHcg5ZFNxnHND) and [learnpython.org](https://www.learnpython.org/)
+Hi and welcome to my **Python learning** repo. I am learning `python` for the backend development.  
 
-**_I have also created mini projects which are present in  mini projects folder_**
+I am using [Python Full course yt video by Apna College](https://youtu.be/q3AuP01daL4?si=xhJEHcg5ZFNxnHND) as the main source of learning apart from the video I am also using chatgpt, [w3school - Python](https://www.w3schools.com/python/) and [learnpython.org](https://www.learnpython.org/) for more information on certain topics.
 
-## Exercise
+## Structure
 
-> These are the short exercise which I have solved after learning the concepts  
+This is structure into following folders and files
 
-1. [Exercise 1](./exercise/Exercise1.py)
-2. [Exercise 2](./exercise/Exercise2.py)
-3. [Exercise 3](./exercise/Exercise3.py)
-4. [Exercise 4](./exercise/Exercise4.py)
+```
+- assets => To hold the images for the display
+- exercise => contains exercise which I have solved
+- mini-projects => hold mini projects which I have developed
+- notes => which contains the notes
+
+```
 
 ## Mini Projects
 
@@ -20,6 +23,11 @@ I am using the 2 source to learn first a youtube video from [Apna College](https
 
 <details>
 <summary>Details</summary>
+<br>
+
+A simple console based calculator where you will provide two numbers `num1` and `num2` and a operator `+,-,*,/,//` and it will perform the operation on the given number and prodive you the solution.   
+
+It will ask you whether you want to continue or not, if you want to finish/end the project enter `False` or want to continue then `True`. 
 
 <h3>How to run</h3>
 <hr> <br>
@@ -40,7 +48,7 @@ python calculator.py
 
 The project will run...
 
-> [Information] For my vscode setting, please refer to this repo [dotfiles repo](https://github.com/thetarun-dev/dotfiles/tree/main/.config/Code/User)
+> [!INFORMATION] For my vscode setting, please refer to this repo [dotfiles repo](https://github.com/thetarun-dev/dotfiles/tree/main/.config/Code/User)
 
 
 <h3>Images</h3>
