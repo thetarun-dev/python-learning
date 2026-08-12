@@ -80,5 +80,35 @@ print("---\nBefore removing: ", thisdict)
 del thisdict["Male"]
 print("After removeing Male: ",thisdict)
 
+# -------------------------------------------------------------------------------------
+# we can copy the entire dict using the copy()
 
+new_dict = thisdict.copy()
+print("---\ncopying thisdict content to new_dict: ", new_dict)
+
+# -------------------------------------------------------------------------------------
+# we can created a nested dict 
+
+new_dict1 = {
+    "parent": {
+        "name": "Vinod singh Bhandari",
+    },
+    "child 1": {
+        "name": "Tarun Bhandari"
+    }
+}
+
+print("---\nNested Dict: ",new_dict1)
+
+# to access a certain value of the key in nested key by
+print("---\nName of the parent: ",new_dict1["parent"]["name"])
+
+# -------------------------------------------------------------------------------------
+
+'''
+
+for more dict method 
+Link: https://www.w3schools.com/python/python_dictionaries_methods.asp
+
+'''
 
